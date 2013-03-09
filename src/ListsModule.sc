@@ -1,0 +1,4 @@
+object ListsModule
+{
+	println( "h" )
+}
