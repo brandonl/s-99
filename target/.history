@@ -1,0 +1,7 @@
+gen-idea
+reload
+test
+console
+~test
+test:test
+exit

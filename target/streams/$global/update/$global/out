@@ -1,0 +1,909 @@
+[0m[[0minfo[0m] [0mUpdating {file:/Users/lbrandon/lab/s-99/}s-99...[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: com.github.brandonl#s-99_2.10;0.1-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.brandonl#s-99_2.10;0.1-SNAPSHOT of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->com.typesafe#scalalogging-slf4j_2.10;1.0.+ [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe#scalalogging-slf4j_2.10;1.0.+ of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve com.typesafe#scalalogging-slf4j_2.10;1.0.+[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#scalalogging-slf4j_2.10;1.0.+ ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#scalalogging-slf4j_2.10;1.0.+ {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for com.typesafe#scalalogging-slf4j_2.10;1.0.+[0m
+[0m[[0mdebug[0m] [0msbt-chain: no latest strategy defined: using default[0m
+[0m[[0mdebug[0m] [0mlocal: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for com.typesafe#scalalogging-slf4j_2.10;1.0.+[0m
+[0m[[0mdebug[0m] [0m		tried /Users/lbrandon/.ivy2/local/com.typesafe/scalalogging-slf4j_2.10/[revision]/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	listing all in /Users/lbrandon/.ivy2/local/com.typesafe/scalalogging-slf4j_2.10/[revision]/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	using local to list all in /Users/lbrandon/.ivy2/local/com.typesafe/scalalogging-slf4j_2.10/[0m
+[0m[[0mdebug[0m] [0m		no resources found[0m
+[0m[[0mdebug[0m] [0m	local: unable to list resources for com.typesafe#scalalogging-slf4j_2.10;1.0.+: pattern=/Users/lbrandon/.ivy2/local/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext][0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe#scalalogging-slf4j_2.10;1.0.+[0m
+[0m[[0mdebug[0m] [0mSonatype OSS Releases: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for com.typesafe#scalalogging-slf4j_2.10;1.0.+[0m
+[0m[[0mdebug[0m] [0m		tried http://oss.sonatype.org/content/repositories/releases/com/typesafe/scalalogging-slf4j_2.10/[revision]/scalalogging-slf4j_2.10-[revision].pom[0m
+[0m[[0mdebug[0m] [0m	listing all in http://oss.sonatype.org/content/repositories/releases/com/typesafe/scalalogging-slf4j_2.10/[revision]/scalalogging-slf4j_2.10-[revision].pom[0m
+[0m[[0mdebug[0m] [0m	using Sonatype OSS Releases to list all in http://oss.sonatype.org/content/repositories/releases/com/typesafe/scalalogging-slf4j_2.10/[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://oss.sonatype.org/content/repositories/releases/com/typesafe/scalalogging-slf4j_2.10/maven-metadata.xml].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://oss.sonatype.org/content/repositories/releases/com/typesafe/scalalogging-slf4j_2.10/maven-metadata.xml.md5].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://oss.sonatype.org/content/repositories/releases/com/typesafe/scalalogging-slf4j_2.10/maven-metadata.xml.sha1].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://oss.sonatype.org/content/repositories/releases/com/typesafe/scalalogging-slf4j_2.10/1.0.0/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://oss.sonatype.org/content/repositories/releases/com/typesafe/scalalogging-slf4j_2.10/1.0.1/].[0m
+[0m[[0mdebug[0m] [0m		found 5 resources[0m
+[0m[[0mdebug[0m] [0m	found revs: [maven-metadata.xml, maven-metadata.xml.md5, maven-metadata.xml.sha1, 1.0.0, 1.0.1][0m
+[0m[[0mdebug[0m] [0mSonatype OSS Releases: no latest strategy defined: using default[0m
+[0m[[0mdebug[0m] [0m	Sonatype OSS Releases: found md file for com.typesafe#scalalogging-slf4j_2.10;1.0.+[0m
+[0m[[0mdebug[0m] [0m		=> http://oss.sonatype.org/content/repositories/releases/com/typesafe/scalalogging-slf4j_2.10/1.0.1/scalalogging-slf4j_2.10-1.0.1.pom (1.0.1)[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@61054ce6[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/lbrandon/.ivy2/cache/com.typesafe/scalalogging-slf4j_2.10/ivy-1.0.1.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for com.typesafe#scalalogging-slf4j_2.10;1.0.1 (resolved by public): /Users/lbrandon/.ivy2/cache/com.typesafe/scalalogging-slf4j_2.10/ivy-1.0.1.xml[0m
+[0m[[0mdebug[0m] [0m	default-cache: revision in cache: com.typesafe#scalalogging-slf4j_2.10;1.0.1[0m
+[0m[[0mdebug[0m] [0m	checking com.typesafe#scalalogging-slf4j_2.10;1.0.1 from public against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: com.typesafe#scalalogging-slf4j_2.10;1.0.1 from public[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe#scalalogging-slf4j_2.10;1.0.1 in public[0m
+[0m[[0mdebug[0m] [0m	[1.0.1] com.typesafe#scalalogging-slf4j_2.10;1.0.+[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->com.typesafe#scalalogging-slf4j_2.10;1.0.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe#scalalogging-slf4j_2.10;1.0.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->com.typesafe#scalalogging-slf4j_2.10;1.0.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe#scalalogging-slf4j_2.10;1.0.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/lbrandon/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.0.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-reflect;2.10.0 (resolved by sbt-chain): /Users/lbrandon/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.0.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/lbrandon/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.0.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-reflect;2.10.0 (resolved by sbt-chain): /Users/lbrandon/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.0.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0m	checking org.scala-lang#scala-reflect;2.10.0 from sbt-chain against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.scala-lang#scala-reflect;2.10.0 from sbt-chain[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scala-lang#scala-library;2.10.0[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/lbrandon/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.0.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-library;2.10.0 (resolved by sbt-chain): /Users/lbrandon/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.0.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/lbrandon/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.0.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-library;2.10.0 (resolved by sbt-chain): /Users/lbrandon/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.0.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0m	checking org.scala-lang#scala-library;2.10.0 from sbt-chain against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.scala-lang#scala-library;2.10.0 from sbt-chain[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.scala-lang#scala-reflect;2.10.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.scala-lang#scala-reflect;2.10.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.7.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.slf4j#slf4j-api;1.7.2[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/lbrandon/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.2.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.slf4j#slf4j-api;1.7.2 (resolved by public): /Users/lbrandon/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.2.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.2[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/lbrandon/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.2.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.slf4j#slf4j-api;1.7.2 (resolved by public): /Users/lbrandon/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.2.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.slf4j#slf4j-api;1.7.2[0m
+[0m[[0mdebug[0m] [0m	checking org.slf4j#slf4j-api;1.7.2 from public against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.slf4j#slf4j-api;1.7.2 from public[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.7.2 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.7.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.slf4j#slf4j-api;1.7.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.7.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.slf4j#slf4j-api;1.7.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.7.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.scala-lang#scala-reflect;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.7.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.slf4j#slf4j-api;1.7.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.7.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->com.typesafe#scalalogging-slf4j_2.10;1.0.+ [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe#scalalogging-slf4j_2.10;1.0.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.brandonl#s-99_2.10;0.1-SNAPSHOT of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.brandonl#s-99_2.10;0.1-SNAPSHOT of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->com.typesafe#scalalogging-slf4j_2.10;1.0.+ [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe#scalalogging-slf4j_2.10;1.0.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->com.typesafe#scalalogging-slf4j_2.10;1.0.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe#scalalogging-slf4j_2.10;1.0.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->com.typesafe#scalalogging-slf4j_2.10;1.0.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe#scalalogging-slf4j_2.10;1.0.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.7.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.7.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.scala-lang#scala-reflect;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.7.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.slf4j#slf4j-api;1.7.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.7.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->com.typesafe#scalalogging-slf4j_2.10;1.0.+ [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe#scalalogging-slf4j_2.10;1.0.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.brandonl#s-99_2.10;0.1-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.brandonl#s-99_2.10;0.1-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.brandonl#s-99_2.10;0.1-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->com.typesafe#scalalogging-slf4j_2.10;1.0.+ [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe#scalalogging-slf4j_2.10;1.0.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->com.typesafe#scalalogging-slf4j_2.10;1.0.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe#scalalogging-slf4j_2.10;1.0.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->com.typesafe#scalalogging-slf4j_2.10;1.0.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe#scalalogging-slf4j_2.10;1.0.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.7.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.7.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.scala-lang#scala-reflect;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.7.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.slf4j#slf4j-api;1.7.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.7.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->com.typesafe#scalalogging-slf4j_2.10;1.0.+ [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe#scalalogging-slf4j_2.10;1.0.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.10;1.10.+ [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalacheck#scalacheck_2.10;1.10.+ of rootConf=test[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scalacheck#scalacheck_2.10;1.10.+[0m
+[0m[[0minfo[0m] [0mResolving org.scalacheck#scalacheck_2.10;1.10.+ ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalacheck#scalacheck_2.10;1.10.+ {test=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for org.scalacheck#scalacheck_2.10;1.10.+[0m
+[0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for org.scalacheck#scalacheck_2.10;1.10.+[0m
+[0m[[0mdebug[0m] [0m		tried /Users/lbrandon/.ivy2/local/org.scalacheck/scalacheck_2.10/[revision]/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	listing all in /Users/lbrandon/.ivy2/local/org.scalacheck/scalacheck_2.10/[revision]/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	using local to list all in /Users/lbrandon/.ivy2/local/org.scalacheck/scalacheck_2.10/[0m
+[0m[[0mdebug[0m] [0m		no resources found[0m
+[0m[[0mdebug[0m] [0m	local: unable to list resources for org.scalacheck#scalacheck_2.10;1.10.+: pattern=/Users/lbrandon/.ivy2/local/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext][0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalacheck#scalacheck_2.10;1.10.+[0m
+[0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for org.scalacheck#scalacheck_2.10;1.10.+[0m
+[0m[[0mdebug[0m] [0m		tried http://oss.sonatype.org/content/repositories/releases/org/scalacheck/scalacheck_2.10/[revision]/scalacheck_2.10-[revision].pom[0m
+[0m[[0mdebug[0m] [0m	listing all in http://oss.sonatype.org/content/repositories/releases/org/scalacheck/scalacheck_2.10/[revision]/scalacheck_2.10-[revision].pom[0m
+[0m[[0mdebug[0m] [0m	using Sonatype OSS Releases to list all in http://oss.sonatype.org/content/repositories/releases/org/scalacheck/scalacheck_2.10/[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://oss.sonatype.org/content/repositories/releases/org/scalacheck/scalacheck_2.10/maven-metadata.xml].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://oss.sonatype.org/content/repositories/releases/org/scalacheck/scalacheck_2.10/maven-metadata.xml.md5].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://oss.sonatype.org/content/repositories/releases/org/scalacheck/scalacheck_2.10/maven-metadata.xml.sha1].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://oss.sonatype.org/content/repositories/releases/org/scalacheck/scalacheck_2.10/1.10.0/].[0m
+[0m[[0mdebug[0m] [0m		found 4 resources[0m
+[0m[[0mdebug[0m] [0m	found revs: [maven-metadata.xml, maven-metadata.xml.md5, maven-metadata.xml.sha1, 1.10.0][0m
+[0m[[0mdebug[0m] [0m	Sonatype OSS Releases: found md file for org.scalacheck#scalacheck_2.10;1.10.+[0m
+[0m[[0mdebug[0m] [0m		=> http://oss.sonatype.org/content/repositories/releases/org/scalacheck/scalacheck_2.10/1.10.0/scalacheck_2.10-1.10.0.pom (1.10.0)[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@61054ce6[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/lbrandon/.ivy2/cache/org.scalacheck/scalacheck_2.10/ivy-1.10.0.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scalacheck#scalacheck_2.10;1.10.0 (resolved by Sonatype OSS Releases): /Users/lbrandon/.ivy2/cache/org.scalacheck/scalacheck_2.10/ivy-1.10.0.xml[0m
+[0m[[0mdebug[0m] [0m	default-cache: revision in cache: org.scalacheck#scalacheck_2.10;1.10.0[0m
+[0m[[0mdebug[0m] [0m	checking org.scalacheck#scalacheck_2.10;1.10.0 from Sonatype OSS Releases against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.scalacheck#scalacheck_2.10;1.10.0 from Sonatype OSS Releases[0m
+[0m[[0mdebug[0m] [0m	found org.scalacheck#scalacheck_2.10;1.10.0 in Sonatype OSS Releases[0m
+[0m[[0mdebug[0m] [0m	[1.10.0] org.scalacheck#scalacheck_2.10;1.10.+[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.10;1.10.+ [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalacheck#scalacheck_2.10;1.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.10;1.10.+ [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalacheck#scalacheck_2.10;1.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.10.+->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.10.+->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.10.+->org.scala-tools.testing#test-interface;0.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-tools.testing#test-interface;0.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scala-tools.testing#test-interface;0.5[0m
+[0m[[0minfo[0m] [0mResolving org.scala-tools.testing#test-interface;0.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-tools.testing#test-interface;0.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/lbrandon/.ivy2/cache/org.scala-tools.testing/test-interface/ivy-0.5.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-tools.testing#test-interface;0.5 (resolved by sbt-chain): /Users/lbrandon/.ivy2/cache/org.scala-tools.testing/test-interface/ivy-0.5.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-tools.testing#test-interface;0.5[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/lbrandon/.ivy2/cache/org.scala-tools.testing/test-interface/ivy-0.5.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-tools.testing#test-interface;0.5 (resolved by sbt-chain): /Users/lbrandon/.ivy2/cache/org.scala-tools.testing/test-interface/ivy-0.5.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-tools.testing#test-interface;0.5[0m
+[0m[[0mdebug[0m] [0m	checking org.scala-tools.testing#test-interface;0.5 from sbt-chain against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.scala-tools.testing#test-interface;0.5 from sbt-chain[0m
+[0m[[0mdebug[0m] [0m	found org.scala-tools.testing#test-interface;0.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.10.+->org.scala-tools.testing#test-interface;0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-tools.testing#test-interface;0.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.10.+->org.scala-lang#scala-actors;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-actors;2.10.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-actors;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/lbrandon/.ivy2/cache/org.scala-lang/scala-actors/ivy-2.10.0.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-actors;2.10.0 (resolved by public): /Users/lbrandon/.ivy2/cache/org.scala-lang/scala-actors/ivy-2.10.0.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/lbrandon/.ivy2/cache/org.scala-lang/scala-actors/ivy-2.10.0.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-actors;2.10.0 (resolved by public): /Users/lbrandon/.ivy2/cache/org.scala-lang/scala-actors/ivy-2.10.0.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0mdebug[0m] [0m	checking org.scala-lang#scala-actors;2.10.0 from public against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.scala-lang#scala-actors;2.10.0 from public[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-actors;2.10.0 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.10.+->org.scala-lang#scala-actors;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.10.+->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.10.+->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.10.+->org.scala-tools.testing#test-interface;0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-tools.testing#test-interface;0.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.10.+->org.scala-tools.testing#test-interface;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-tools.testing#test-interface;0.5 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.10.+->org.scala-lang#scala-actors;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.10.+->org.scala-lang#scala-actors;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.10;1.10.+ [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalacheck#scalacheck_2.10;1.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->org.scalatest#scalatest_2.10;1.9.+ [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10;1.9.+ of rootConf=test[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scalatest#scalatest_2.10;1.9.+[0m
+[0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.10;1.9.+ ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.10;1.9.+ {test=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for org.scalatest#scalatest_2.10;1.9.+[0m
+[0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for org.scalatest#scalatest_2.10;1.9.+[0m
+[0m[[0mdebug[0m] [0m		tried /Users/lbrandon/.ivy2/local/org.scalatest/scalatest_2.10/[revision]/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	listing all in /Users/lbrandon/.ivy2/local/org.scalatest/scalatest_2.10/[revision]/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	using local to list all in /Users/lbrandon/.ivy2/local/org.scalatest/scalatest_2.10/[0m
+[0m[[0mdebug[0m] [0m		no resources found[0m
+[0m[[0mdebug[0m] [0m	local: unable to list resources for org.scalatest#scalatest_2.10;1.9.+: pattern=/Users/lbrandon/.ivy2/local/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext][0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalatest#scalatest_2.10;1.9.+[0m
+[0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for org.scalatest#scalatest_2.10;1.9.+[0m
+[0m[[0mdebug[0m] [0m		tried http://oss.sonatype.org/content/repositories/releases/org/scalatest/scalatest_2.10/[revision]/scalatest_2.10-[revision].pom[0m
+[0m[[0mdebug[0m] [0m	listing all in http://oss.sonatype.org/content/repositories/releases/org/scalatest/scalatest_2.10/[revision]/scalatest_2.10-[revision].pom[0m
+[0m[[0mdebug[0m] [0m	using Sonatype OSS Releases to list all in http://oss.sonatype.org/content/repositories/releases/org/scalatest/scalatest_2.10/[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://oss.sonatype.org/content/repositories/releases/org/scalatest/scalatest_2.10/maven-metadata.xml].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://oss.sonatype.org/content/repositories/releases/org/scalatest/scalatest_2.10/maven-metadata.xml.md5].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://oss.sonatype.org/content/repositories/releases/org/scalatest/scalatest_2.10/maven-metadata.xml.sha1].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://oss.sonatype.org/content/repositories/releases/org/scalatest/scalatest_2.10/1.9/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://oss.sonatype.org/content/repositories/releases/org/scalatest/scalatest_2.10/1.9.1/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://oss.sonatype.org/content/repositories/releases/org/scalatest/scalatest_2.10/2.0.M5b/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://oss.sonatype.org/content/repositories/releases/org/scalatest/scalatest_2.10/2.0.M6-SNAP4/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://oss.sonatype.org/content/repositories/releases/org/scalatest/scalatest_2.10/2.0.M6-SNAP5/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://oss.sonatype.org/content/repositories/releases/org/scalatest/scalatest_2.10/2.0.M6-SNAP6/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://oss.sonatype.org/content/repositories/releases/org/scalatest/scalatest_2.10/2.0.M6-SNAP7/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://oss.sonatype.org/content/repositories/releases/org/scalatest/scalatest_2.10/2.0.M6-SNAP8/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://oss.sonatype.org/content/repositories/releases/org/scalatest/scalatest_2.10/2.0.M6-SNAP9/].[0m
+[0m[[0mdebug[0m] [0m		found 12 resources[0m
+[0m[[0mdebug[0m] [0m	found revs: [maven-metadata.xml, maven-metadata.xml.md5, maven-metadata.xml.sha1, 1.9, 1.9.1, 2.0.M5b, 2.0.M6-SNAP4, 2.0.M6-SNAP5, 2.0.M6-SNAP6, 2.0.M6-SNAP7, 2.0.M6-SNAP8, 2.0.M6-SNAP9][0m
+[0m[[0mdebug[0m] [0m	Sonatype OSS Releases: rejected by version matcher: http://oss.sonatype.org/content/repositories/releases/org/scalatest/scalatest_2.10/2.0.M6-SNAP9/scalatest_2.10-2.0.M6-SNAP9.pom (2.0.M6-SNAP9)[0m
+[0m[[0mdebug[0m] [0m	Sonatype OSS Releases: rejected by version matcher: http://oss.sonatype.org/content/repositories/releases/org/scalatest/scalatest_2.10/2.0.M6-SNAP8/scalatest_2.10-2.0.M6-SNAP8.pom (2.0.M6-SNAP8)[0m
+[0m[[0mdebug[0m] [0m	Sonatype OSS Releases: rejected by version matcher: http://oss.sonatype.org/content/repositories/releases/org/scalatest/scalatest_2.10/2.0.M6-SNAP7/scalatest_2.10-2.0.M6-SNAP7.pom (2.0.M6-SNAP7)[0m
+[0m[[0mdebug[0m] [0m	Sonatype OSS Releases: rejected by version matcher: http://oss.sonatype.org/content/repositories/releases/org/scalatest/scalatest_2.10/2.0.M6-SNAP6/scalatest_2.10-2.0.M6-SNAP6.pom (2.0.M6-SNAP6)[0m
+[0m[[0mdebug[0m] [0m	Sonatype OSS Releases: rejected by version matcher: http://oss.sonatype.org/content/repositories/releases/org/scalatest/scalatest_2.10/2.0.M6-SNAP5/scalatest_2.10-2.0.M6-SNAP5.pom (2.0.M6-SNAP5)[0m
+[0m[[0mdebug[0m] [0m	Sonatype OSS Releases: rejected by version matcher: http://oss.sonatype.org/content/repositories/releases/org/scalatest/scalatest_2.10/2.0.M6-SNAP4/scalatest_2.10-2.0.M6-SNAP4.pom (2.0.M6-SNAP4)[0m
+[0m[[0mdebug[0m] [0m	Sonatype OSS Releases: rejected by version matcher: http://oss.sonatype.org/content/repositories/releases/org/scalatest/scalatest_2.10/2.0.M5b/scalatest_2.10-2.0.M5b.pom (2.0.M5b)[0m
+[0m[[0mdebug[0m] [0m	Sonatype OSS Releases: found md file for org.scalatest#scalatest_2.10;1.9.+[0m
+[0m[[0mdebug[0m] [0m		=> http://oss.sonatype.org/content/repositories/releases/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.pom (1.9.1)[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@61054ce6[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/lbrandon/.ivy2/cache/org.scalatest/scalatest_2.10/ivy-1.9.1.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scalatest#scalatest_2.10;1.9.1 (resolved by public): /Users/lbrandon/.ivy2/cache/org.scalatest/scalatest_2.10/ivy-1.9.1.xml[0m
+[0m[[0mdebug[0m] [0m	default-cache: revision in cache: org.scalatest#scalatest_2.10;1.9.1[0m
+[0m[[0mdebug[0m] [0m	checking org.scalatest#scalatest_2.10;1.9.1 from public against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.scalatest#scalatest_2.10;1.9.1 from public[0m
+[0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.10;1.9.1 in public[0m
+[0m[[0mdebug[0m] [0m	[1.9.1] org.scalatest#scalatest_2.10;1.9.+[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->org.scalatest#scalatest_2.10;1.9.+ [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->org.scalatest#scalatest_2.10;1.9.+ [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.+->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.+->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.+->org.scala-lang#scala-actors;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.+->org.scala-lang#scala-actors;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.+->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.+->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.+->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.+->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.+->org.scala-lang#scala-actors;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.+->org.scala-lang#scala-actors;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.+->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.+->org.scala-lang#scala-reflect;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->org.scalatest#scalatest_2.10;1.9.+ [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.brandonl#s-99_2.10;0.1-SNAPSHOT of rootConf=provided[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.brandonl#s-99_2.10;0.1-SNAPSHOT of rootConf=optional[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.brandonl#s-99_2.10;0.1-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.brandonl#s-99_2.10;0.1-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->com.typesafe#scalalogging-slf4j_2.10;1.0.+ [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe#scalalogging-slf4j_2.10;1.0.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->com.typesafe#scalalogging-slf4j_2.10;1.0.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe#scalalogging-slf4j_2.10;1.0.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->com.typesafe#scalalogging-slf4j_2.10;1.0.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe#scalalogging-slf4j_2.10;1.0.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.7.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.7.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.scala-lang#scala-reflect;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.7.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.slf4j#slf4j-api;1.7.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.7.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->com.typesafe#scalalogging-slf4j_2.10;1.0.+ [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe#scalalogging-slf4j_2.10;1.0.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.brandonl#s-99_2.10;0.1-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.brandonl#s-99_2.10;0.1-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.brandonl#s-99_2.10;0.1-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.brandonl#s-99_2.10;0.1-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.brandonl#s-99_2.10;0.1-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->com.typesafe#scalalogging-slf4j_2.10;1.0.+ [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe#scalalogging-slf4j_2.10;1.0.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->com.typesafe#scalalogging-slf4j_2.10;1.0.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe#scalalogging-slf4j_2.10;1.0.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->com.typesafe#scalalogging-slf4j_2.10;1.0.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe#scalalogging-slf4j_2.10;1.0.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.7.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.7.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.scala-lang#scala-reflect;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.7.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.slf4j#slf4j-api;1.7.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.7.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->com.typesafe#scalalogging-slf4j_2.10;1.0.+ [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe#scalalogging-slf4j_2.10;1.0.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.brandonl#s-99_2.10;0.1-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.brandonl#s-99_2.10;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.brandonl#s-99_2.10;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.brandonl#s-99_2.10;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.brandonl#s-99_2.10;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->com.typesafe#scalalogging-slf4j_2.10;1.0.+ [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe#scalalogging-slf4j_2.10;1.0.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->com.typesafe#scalalogging-slf4j_2.10;1.0.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe#scalalogging-slf4j_2.10;1.0.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->com.typesafe#scalalogging-slf4j_2.10;1.0.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe#scalalogging-slf4j_2.10;1.0.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.7.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.7.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.scala-lang#scala-reflect;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.7.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#scalalogging-slf4j_2.10;1.0.+->org.slf4j#slf4j-api;1.7.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.slf4j#slf4j-api;1.7.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->com.typesafe#scalalogging-slf4j_2.10;1.0.+ [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe#scalalogging-slf4j_2.10;1.0.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.10;1.10.+ [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalacheck#scalacheck_2.10;1.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.10;1.10.+ [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalacheck#scalacheck_2.10;1.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.10;1.10.+ [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalacheck#scalacheck_2.10;1.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.10.+->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.10.+->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.10.+->org.scala-tools.testing#test-interface;0.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-tools.testing#test-interface;0.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.10.+->org.scala-tools.testing#test-interface;0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-tools.testing#test-interface;0.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.10.+->org.scala-lang#scala-actors;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.10.+->org.scala-lang#scala-actors;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.10.+->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.10.+->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.10.+->org.scala-tools.testing#test-interface;0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-tools.testing#test-interface;0.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.10.+->org.scala-tools.testing#test-interface;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-tools.testing#test-interface;0.5 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.10.+->org.scala-lang#scala-actors;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.10.+->org.scala-lang#scala-actors;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.10;1.10.+ [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalacheck#scalacheck_2.10;1.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->org.scalatest#scalatest_2.10;1.9.+ [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->org.scalatest#scalatest_2.10;1.9.+ [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->org.scalatest#scalatest_2.10;1.9.+ [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.+->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.+->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.+->org.scala-lang#scala-actors;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.+->org.scala-lang#scala-actors;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.+->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.+->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.+->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.+->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.+->org.scala-lang#scala-actors;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.+->org.scala-lang#scala-actors;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.+->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.+->org.scala-lang#scala-reflect;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.brandonl#s-99_2.10;0.1-SNAPSHOT->org.scalatest#scalatest_2.10;1.9.+ [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.brandonl#s-99_2.10;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.brandonl#s-99_2.10;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.brandonl#s-99_2.10;0.1-SNAPSHOT of rootConf=plugin[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.brandonl#s-99_2.10;0.1-SNAPSHOT of rootConf=sources[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.brandonl#s-99_2.10;0.1-SNAPSHOT of rootConf=docs[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0mloadData of com.github.brandonl#s-99_2.10;0.1-SNAPSHOT of rootConf=pom[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 8[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe#scalalogging-slf4j_2.10;1.0.1 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-reflect;2.10.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.slf4j#slf4j-api;1.7.2 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.slf4j#slf4j-api;1.7.2[0m
+[0m[[0mdebug[0m] [0mSort done for : com.typesafe#scalalogging-slf4j_2.10;1.0.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.7.2[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scalacheck#scalacheck_2.10;1.10.0 / Number of dependencies = 3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-tools.testing#test-interface;0.5 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-tools.testing#test-interface;0.5[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-actors;2.10.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scalacheck#scalacheck_2.10;1.10.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scalatest#scalatest_2.10;1.9.1 / Number of dependencies = 15[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-tools.testing#test-interface;0.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalacheck#scalacheck_2.10;1.10.0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scalatest#scalatest_2.10;1.9.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-tools.testing#test-interface;0.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.0 in test-internal: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.0 in test: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.0 in compile: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.0 in runtime: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.0 in runtime-internal: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.0 in compile-internal: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/lbrandon/lab/s-99/target/resolution-cache/com.github.brandonl/s-99_2.10/0.1-SNAPSHOT/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#scalalogging-slf4j_2.10;1.0.1!scalalogging-slf4j_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.2!slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.0 in test-internal: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.0 in test: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.0 in compile: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.0 in runtime: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.0 in runtime-internal: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.0 in compile-internal: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.0 in test-internal: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.0 in test: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.0 in compile: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.0 in runtime: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.0 in runtime-internal: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.0 in compile-internal: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalacheck#scalacheck_2.10;1.10.0!scalacheck_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.10;1.9.1!scalatest_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-actors;2.10.0!scala-actors.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 3499ms :: artifacts dl 68ms[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe#scalalogging-slf4j_2.10;1.0.1 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-reflect;2.10.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.slf4j#slf4j-api;1.7.2 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.slf4j#slf4j-api;1.7.2[0m
+[0m[[0mdebug[0m] [0mSort done for : com.typesafe#scalalogging-slf4j_2.10;1.0.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.7.2[0m
+[0m[[0mdebug[0m] [0m	report for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT compile produced in /Users/lbrandon/lab/s-99/target/resolution-cache/reports/com.github.brandonl-s-99_2.10/compile-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe#scalalogging-slf4j_2.10;1.0.1 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-reflect;2.10.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.slf4j#slf4j-api;1.7.2 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.slf4j#slf4j-api;1.7.2[0m
+[0m[[0mdebug[0m] [0mSort done for : com.typesafe#scalalogging-slf4j_2.10;1.0.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.7.2[0m
+[0m[[0mdebug[0m] [0m	report for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT runtime produced in /Users/lbrandon/lab/s-99/target/resolution-cache/reports/com.github.brandonl-s-99_2.10/runtime-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 8[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe#scalalogging-slf4j_2.10;1.0.1 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-reflect;2.10.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.slf4j#slf4j-api;1.7.2 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.slf4j#slf4j-api;1.7.2[0m
+[0m[[0mdebug[0m] [0mSort done for : com.typesafe#scalalogging-slf4j_2.10;1.0.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.7.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scalacheck#scalacheck_2.10;1.10.0 / Number of dependencies = 3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-tools.testing#test-interface;0.5 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-tools.testing#test-interface;0.5[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-actors;2.10.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scalacheck#scalacheck_2.10;1.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-tools.testing#test-interface;0.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scalatest#scalatest_2.10;1.9.1 / Number of dependencies = 15[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-tools.testing#test-interface;0.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalacheck#scalacheck_2.10;1.10.0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scalatest#scalatest_2.10;1.9.1[0m
+[0m[[0mdebug[0m] [0m	report for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT test produced in /Users/lbrandon/lab/s-99/target/resolution-cache/reports/com.github.brandonl-s-99_2.10/test-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT provided produced in /Users/lbrandon/lab/s-99/target/resolution-cache/reports/com.github.brandonl-s-99_2.10/provided-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT optional produced in /Users/lbrandon/lab/s-99/target/resolution-cache/reports/com.github.brandonl-s-99_2.10/optional-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe#scalalogging-slf4j_2.10;1.0.1 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-reflect;2.10.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.slf4j#slf4j-api;1.7.2 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.slf4j#slf4j-api;1.7.2[0m
+[0m[[0mdebug[0m] [0mSort done for : com.typesafe#scalalogging-slf4j_2.10;1.0.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.7.2[0m
+[0m[[0mdebug[0m] [0m	report for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT compile-internal produced in /Users/lbrandon/lab/s-99/target/resolution-cache/reports/com.github.brandonl-s-99_2.10/compile-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe#scalalogging-slf4j_2.10;1.0.1 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-reflect;2.10.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.slf4j#slf4j-api;1.7.2 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.slf4j#slf4j-api;1.7.2[0m
+[0m[[0mdebug[0m] [0mSort done for : com.typesafe#scalalogging-slf4j_2.10;1.0.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.7.2[0m
+[0m[[0mdebug[0m] [0m	report for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT runtime-internal produced in /Users/lbrandon/lab/s-99/target/resolution-cache/reports/com.github.brandonl-s-99_2.10/runtime-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 8[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe#scalalogging-slf4j_2.10;1.0.1 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-reflect;2.10.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.slf4j#slf4j-api;1.7.2 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.slf4j#slf4j-api;1.7.2[0m
+[0m[[0mdebug[0m] [0mSort done for : com.typesafe#scalalogging-slf4j_2.10;1.0.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.slf4j#slf4j-api;1.7.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scalacheck#scalacheck_2.10;1.10.0 / Number of dependencies = 3[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-tools.testing#test-interface;0.5 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-tools.testing#test-interface;0.5[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-actors;2.10.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scalacheck#scalacheck_2.10;1.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-tools.testing#test-interface;0.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scalatest#scalatest_2.10;1.9.1 / Number of dependencies = 15[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-tools.testing#test-interface;0.5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalacheck#scalacheck_2.10;1.10.0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scalatest#scalatest_2.10;1.9.1[0m
+[0m[[0mdebug[0m] [0m	report for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT test-internal produced in /Users/lbrandon/lab/s-99/target/resolution-cache/reports/com.github.brandonl-s-99_2.10/test-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT plugin produced in /Users/lbrandon/lab/s-99/target/resolution-cache/reports/com.github.brandonl-s-99_2.10/plugin-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT sources produced in /Users/lbrandon/lab/s-99/target/resolution-cache/reports/com.github.brandonl-s-99_2.10/sources-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT docs produced in /Users/lbrandon/lab/s-99/target/resolution-cache/reports/com.github.brandonl-s-99_2.10/docs-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for com.github.brandonl#s-99_2.10;0.1-SNAPSHOT pom produced in /Users/lbrandon/lab/s-99/target/resolution-cache/reports/com.github.brandonl-s-99_2.10/pom-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (3499ms resolve - 68ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
