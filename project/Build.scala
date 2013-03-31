@@ -2,13 +2,15 @@ import sbt._
 import sbt.Keys._
 
 object BuildSettings {
-  val buildSettings = 
-  	Defaults.defaultSettings ++ 
+  val buildSettings =
+  	Defaults.defaultSettings ++
   	Seq(
 	    organization        := "com.github.brandonl",
 	    version             := "0.1-SNAPSHOT",
 	    scalaVersion        := "2.10.0",
 	    scalacOptions       := Seq("-unchecked", "-deprecation", "-feature"),
+      scalaSource in Compile <<= baseDirectory(_ / "main" / "src"),
+      scalaSource in Test <<= baseDirectory(_ / "main" / "test"),
 	    resolvers           ++= Seq(
 	      "Sonatype OSS Releases" at "http://oss.sonatype.org/content/repositories/releases/",
 	      "Sonatype OSS Snapshots" at "http://oss.sonatype.org/content/repositories/snapshots/"
@@ -32,7 +34,7 @@ object Build extends Build {
 	)
 
 	object Dependencies {
-		
+
 		object Compile {
 		  val ScalaLogging = "com.typesafe" %% "scalalogging-slf4j" % "1.0.+"
 		  val ScalaConfig = "com.typesafe" % "config" % "1.0.0"
